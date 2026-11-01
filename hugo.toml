@@ -1,0 +1,21 @@
+baseURL = 'https://xunwu-blog.top/'
+languageCode = 'zh-cn'
+title = '洵勿的技术笔记'
+theme = "hugo-theme-stack"
+
+[params]
+  mainSections = ["post"]
+
+[menu]
+  [[menu.main]]
+    name = "首页"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "文章"
+    url = "/post/"
+    weight = 2
+  [[menu.main]]
+    name = "归档"
+    url = "/archives/"
+    weight =3

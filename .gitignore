@@ -1,0 +1,6 @@
+# 忽略构建输出文件夹public
+public/
+# 缓存
+resources/_gen/
+.DS_Store
+*.log
